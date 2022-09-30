@@ -27,8 +27,7 @@ namespace WpfApp1999
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            RadioButton pressed = (RadioButton)sender;
-            MessageBox.Show(pressed.Content.ToString());
+           
         }
     }
 }
