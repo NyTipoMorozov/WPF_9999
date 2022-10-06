@@ -6,11 +6,17 @@
         xmlns:local="clr-namespace:WpfApp1999"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-  <Grid>
-        <ListBox SelectedIndex="1">
-            <ListBoxItem Content="Red"/>
-            <ListBoxItem Content="Green"/>
-            <ListBoxItem Content="Blue"/>
-        </ListBox>
-  </Grid>
+    <Grid>
+        <Button Width="60" Height="30" Content="Цвет">
+            <Button.Background>
+                <SolidColorBrush Color="LightGray" />
+            </Button.Background>
+            <Button.Foreground>
+                <SolidColorBrush Color="DarkRed" />
+            </Button.Foreground>
+        </Button>
+        <TextBlock>
+            <Run FontWeight="Bold">Однажды в студненую зимнюю пору</Run> Я из лесу вышел <LineBreak /> Был сильный мороз </TextBlock>
+    </Grid>
 </Window>
+    
